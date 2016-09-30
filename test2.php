@@ -11,8 +11,18 @@ $data1 = [
     'parent3.child3.position' => 10,
 ];
 
+echo '<hr>'.'<p>';
+
+
+print_r (array_flip($data1));
+echo '<hr>'.'<p>';
+print_r (array_reverse($data1, SORT_DESC));
+echo '<hr>'.'<p>';
+
+
+
 //сделает такой и наоборот
-$data = [
+/* $data = [
     'parent' => [
         'child' => [
             'field' => 1,
@@ -34,3 +44,4 @@ $data = [
         ]
     ],
 ];
+*/
